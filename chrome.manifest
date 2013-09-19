@@ -1,0 +1,2 @@
+content    tagalltabs    chrome/content/
+overlay    chrome://browser/content/places/bookmarkProperties2.xul    chrome://tagalltabs/content/bookmarkPropertiesOverlay.xul
