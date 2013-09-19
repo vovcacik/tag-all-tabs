@@ -8,7 +8,7 @@
     <em:type>2</em:type>
 
     <em:name>Tag All Tabs</em:name>
-    <em:version>1.0</em:version>
+    <em:version>1.0.1</em:version>
     <em:description>Adds tagging to "Bookmark All Tabs" command.</em:description>
     <em:creator>Vlastimil Ovčáčík</em:creator>
     <em:homepageURL>https://addons.mozilla.org/firefox/addon/tag-all-tabs/</em:homepageURL>
