@@ -25,7 +25,18 @@
         }
     </script>
 
+    <!--
+      ** Hooks on the dialog window events.
+      -->
     <dialog id="bookmarkproperties"
             onload="onDialogLoadHook();"
             ondialogaccept="onDialogAcceptHook();"/>
+    <!--
+      ** The gEditItemOverlay wasn't initialized to reckon with tags field, so disable
+      ** all event handlers that could surprise it.
+      ** @see http://mxr.mozilla.org/mozilla-release/source/browser/components/places/content/editBookmarkOverlay.xul#151
+      ** @see http://mxr.mozilla.org/mozilla-release/source/browser/components/places/content/editBookmarkOverlay.js#411
+      -->
+    <textbox id="editBMPanel_tagsField"
+             onblur=""/>
 </overlay>
